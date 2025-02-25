@@ -1,0 +1,33 @@
+# Jupyter Notebook Checkpoints (Gereksiz dosyalar)
+.ipynb_checkpoints/
+
+# Büyük Dosyaları Hariç Tut
+*.mp4
+*.avi
+*.h5
+*.pth
+*.p
+*.jpg
+*.png
+
+# Belirli Klasörleri Hariç Tut (Büyük Veri Setleri)
+OpenCV/deepfashion/
+OpenCV/Fashion Landmark Detection Benchmark/
+OpenCV/fashion_mnist_data/
+OpenCV/myData/
+
+# OneDrive Senkron Dosyaları (Olası Çakışmaları Önlemek İçin)
+*.lnk
+*.tmp
+
+# MacOS ve Windows Sistem Dosyaları
+.DS_Store
+Thumbs.db
+
+# Python Sanal Ortamları ve Bağımlılıkları
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
