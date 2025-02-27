@@ -1,30 +1,52 @@
-# Jupyter Notebook checkpoints
+# Genel Python ve Jupyter Notebook ignore kuralları
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 .ipynb_checkpoints/
 
-# Model files\*.h5
+# Model dosyaları (Makine Öğrenimi / Derin Öğrenme modelleri)
+*.h5
 *.pth
+*.pkl
 *.p
+*.onnx
+*.pb
+*.tflite
+*.joblib
+*.ckpt
 
-# Large data files
-*.mp4
-*.avi
+# JSON veri dosyaları (Büyük veri setleri için)
 *.json
 
-# Image and video files (optional, eğer bazılarını yüklemek istersen kaldırabilirsin)
+# Görüntü ve video dosyaları (Eğer gereksizse)
 *.jpg
 *.jpeg
 *.png
+*.bmp
+*.gif
+*.tiff
+*.mp4
+*.avi
+*.mov
+*.mkv
 
-# Augmented images directory
-aug_images/
+# Çıktı ve log dosyaları
+*.log
+*.out
+*.err
+*.csv
+*.tsv
 
-# Dataset directories
-deepfashion/
-deepfashion2/
-fashion_mnist_data/
-human_parsing/
-myData/
-
-# Ignore hidden system files
+# Geçici ve sistem dosyaları
 .DS_Store
 Thumbs.db
+*.bak
+*.swp
+*.swo
+*.tmp
+
+OpenCV/U-2-Net/
+OpenCV/bb/
+OpenCV/cloth-segmentation/
+
